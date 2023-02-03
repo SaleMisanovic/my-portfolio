@@ -58,7 +58,7 @@
                             <p>This is the site you are currently viewing. 
                                 Made with HTML, CSS/SASS and Vanilla JS.
                             </p>
-                            <button><a href="">Code</a></button>
+                            <button><a href="https://github.com/SaleMisanovic/my-portfolio">Code</a></button>
                         </div>
                         <div class="single-project">
                             <img src="assets/css.png" alt="">
@@ -82,9 +82,20 @@
             </section>
             <section id="contact">
                 <div><h2>Contact</h2></div>
-                <div class="contact-details">                    
-                    <p>hEllo</p>
-                </div>
+                    <form  action="https://formsubmit.co/sale.misanovic@gmail.com" method="POST" class="contact-form">
+                      <div class="form-group">
+                        <input class="form-element" type="text" name="name" value="" placeholder="Your Name">
+                      </div>
+                      <div class="form-group">
+                        <input class="form-element" type="email" name="email" value="" placeholder="Your Email" required>
+                      </div>
+                      <div class="form-group"><textarea name="message" class="form-element" placeholder="Your Message" rows="3" required></textarea></div>
+                      <div class="form-group">
+                        <button class="submitdugme"  type="submit" value="yes" name="send">
+                           Submit
+                        </button>
+                      </div>
+                    </form>
             </section>
         </main>
         <footer></footer>

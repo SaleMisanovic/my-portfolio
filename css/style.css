@@ -104,10 +104,34 @@ section .project-list .single-project img {
 }
 section .project-list .single-project button {
   padding: 0.5em 1em;
+  border-radius: 5px;
 }
-section .contact-details {
+section .project-list .single-project button a {
+  color: black;
+}
+section form {
   padding: 1em;
   display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+section form div input {
+  color: black;
+  padding: 0.5em 1em;
+  margin-bottom: 1em;
+  width: 50%;
+}
+section form div button {
+  color: black;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+}
+section form div textarea {
+  color: black;
+  padding: 0.5em 1em;
+  margin-bottom: 1em;
+  width: 50%;
+  height: 10em;
 }
 
 /*# sourceMappingURL=style.css.map */
