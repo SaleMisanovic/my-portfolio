@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+}
+
+header div {
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+}
+header div nav ul {
+  display: flex;
+  list-style: none;
+}
+header div nav ul li a {
+  text-decoration: none;
+  font-size: larger;
+  padding: 2em;
+}
+header .intro {
+  padding-top: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+header .intro div {
+  display: inline;
+  padding: 4em;
+}
+header .intro div h1 {
+  font-size: 10vh;
+}
+header .intro div h1 span {
+  color: goldenrod;
+}
+header .intro div p {
+  font-size: 4vh;
+}
+header .intro img {
+  border-radius: 10em;
+  filter: grayscale(50%);
+  transition-duration: 1000ms;
+}
+header .intro img:hover {
+  border-radius: 5em;
+  filter: grayscale(0%);
+  transition-duration: 1000ms;
+}
+
+section {
+  background-color: #5f5f5b;
+}
+section div {
+  width: 50%;
+  margin: 0 auto;
+}
+section div h2 {
+  text-decoration: underline goldenrod;
+  font-size: 4vh;
+}
+section div p {
+  font-size: 2vh;
+}
+section div h3 {
+  padding-top: 1em;
+  font-size: 3vh;
+}
+section .tools {
+  padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+section .tools img {
+  padding: 0.5em;
+  height: 100px;
+}
+section .project-list {
+  padding: 1em;
+  display: flex;
+  justify-content: left;
+}
+section .project-list .single-project {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  text-align: center;
+  padding: 1em;
+  margin: 1em;
+}
+section .project-list .single-project img {
+  max-height: 100px;
+}
+section .project-list .single-project button {
+  padding: 0.5em 1em;
+}
+section .contact-details {
+  padding: 1em;
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css.map */

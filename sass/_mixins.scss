@@ -1,0 +1,15 @@
+@mixin main{
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: $primary-font;
+        color: white;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    body{
+        background-color: black;
+    }
+}
