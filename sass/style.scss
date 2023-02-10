@@ -18,6 +18,10 @@ header {
             text-decoration: none;
             font-size: larger;
             padding: 2em;
+            &:hover{
+              text-decoration: underline;
+              color: darkgray;
+            }
           }
         }
       }
@@ -84,21 +88,35 @@ section{
       .project-list{
         padding: 1em;
         display: flex;
+        flex-wrap: wrap;
         justify-content: left;
         .single-project{
-          border: 1px solid lightgray;
+          border: 2px solid lightgray;
           border-radius: 5px;
           text-align: center;
           padding: 1em;
-          margin: 1em;
+          margin: 1em;          
+          width: 30%;
+          transition: 500ms;
+          &:hover{
+            transform: scale(110%);
+            transition: 500ms;
+          }
+          h4{
+            font-size: larger;
+          }
           img{
             max-height: 100px;
+            border: 1px solid white;
+            border-radius: 5px;
           }
           button{
             padding:0.5em 1em;
             border-radius: 5px;
-            a{
-              color: black;
+            margin: 1em;
+            color: black;
+            &:hover{
+              cursor:pointer;
             }
           }
         }
@@ -129,6 +147,12 @@ section{
             }
           }
       }        
+}
+footer{
+  p{
+    text-align: center;
+    font-size: smaller;
+  }
 }
 
 
