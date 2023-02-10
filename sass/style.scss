@@ -20,7 +20,7 @@ header {
             padding: 2em;
             &:hover{
               text-decoration: underline;
-              color: darkgray;
+              color: #a9a9a9;
             }
           }
         }
@@ -58,7 +58,8 @@ header {
   }
 }
 section{
-  background-color: #5f5f5b;
+  background: rgb(95,95,91);
+  background: linear-gradient(90deg, rgba(95,95,91,1) 0%, rgba(95,95,91,0.40948879551820727) 100%);
   div{
     width: 50%;
     margin: 0 auto;

@@ -31,7 +31,7 @@ header div nav ul li a {
 }
 header div nav ul li a:hover {
   text-decoration: underline;
-  color: darkgray;
+  color: #a9a9a9;
 }
 header .intro {
   padding-top: 20vh;
@@ -64,7 +64,8 @@ header .intro img:hover {
 }
 
 section {
-  background-color: #5f5f5b;
+  background: rgb(95, 95, 91);
+  background: linear-gradient(90deg, rgb(95, 95, 91) 0%, rgba(95, 95, 91, 0.4094887955) 100%);
 }
 section div {
   width: 50%;
