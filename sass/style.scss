@@ -108,6 +108,7 @@ section{
           }
           img{
             max-height: 100px;
+            max-width: 100%;
             border: 1px solid white;
             border-radius: 5px;
           }
@@ -154,6 +155,40 @@ footer{
     text-align: center;
     font-size: smaller;
   }
+}
+
+@media screen and (max-width:1440px)  {
+  section{
+      div{
+         width: 70%;
+      }
+  } 
+}
+
+@media screen and (max-width:1024px)  {
+  section{
+      div{
+         width: 80%;
+      }
+      .project-list{
+        .single-project{
+          width: 70%;
+        }
+      }
+  } 
+}
+
+@media screen and (max-width:768px)  {
+  section{
+      div{
+         width: 90%;
+      }
+      .project-list{
+        .single-project{
+          width: 80%;
+        }
+      }
+  } 
 }
 
 

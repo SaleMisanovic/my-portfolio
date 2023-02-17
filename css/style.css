@@ -116,6 +116,7 @@ section .project-list .single-project h4 {
 }
 section .project-list .single-project img {
   max-height: 100px;
+  max-width: 100%;
   border: 1px solid white;
   border-radius: 5px;
 }
@@ -156,6 +157,28 @@ section form div textarea {
 footer p {
   text-align: center;
   font-size: smaller;
+}
+
+@media screen and (max-width: 1440px) {
+  section div {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  section div {
+    width: 80%;
+  }
+  section .project-list .single-project {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 768px) {
+  section div {
+    width: 90%;
+  }
+  section .project-list .single-project {
+    width: 80%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
